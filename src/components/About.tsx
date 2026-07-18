@@ -32,7 +32,7 @@ const About = () => (
               <div className="relative w-full max-w-[500px] mx-auto">
                   {/* Main image container, enlarged and set to true aspect ratio */}
                   <div className="relative w-full aspect-[1239/1272]">
-                    <ImageAtomizer imageUrl="./sanskar.jpg" />
+                    <ImageAtomizer imageUrl="/sanskar.jpg" />
                   </div>
                 </div>
               </div>

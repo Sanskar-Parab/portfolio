@@ -31,7 +31,7 @@ const Contact = () => {
     setLoad(true); setErr('');
     try {
       await emailjs.send('service_n5roita','template_gwo7nhp',
-        { from_name:form.name, from_email:form.email, message:form.message, to_name:'Sanskar' },
+        { from_name:form.name, from_email:form.email, message:form.message, to_name:'Sanskar', to_email:'sanskarparab27@gmail.com' },
         'y8I_lb-naX9B01-6N');
       setSent(true); setForm({ name:'', email:'', message:'' });
     } catch (error: any) { 
@@ -137,7 +137,7 @@ const Contact = () => {
                   {err && <p className="font-mono text-[0.75rem] text-red-500 text-center">{err}</p>}
                   
                   <div className="flex flex-col-reverse sm:flex-row gap-4 justify-between items-center mt-4">
-                    <a href="mailto:your-email@example.com" className="flex items-center gap-2 text-gray-400 text-[0.85rem] no-underline transition-colors duration-200 hover:text-gray-200">
+                    <a href="mailto:sanskarparab27@gmail.com" className="flex items-center gap-2 text-gray-400 text-[0.85rem] no-underline transition-colors duration-200 hover:text-gray-200">
                       <Mail size={16} /> direct email
                     </a>
                     

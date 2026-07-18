@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
 export const socials = [
   { href: 'https://github.com/Sanskar-Parab',            icon: <FaGithub size={28} />,   label: 'GitHub', bg: '#000000', color: '#ffffff', shape: 'square' },
   { href: 'https://www.linkedin.com/in/sanskar-parab/', icon: <FaLinkedinIn size={24} />, label: 'LinkedIn', bg: '#0077b5', color: '#ffffff', shape: 'circle' },
-  { href: 'mailto:your-email@example.com',               icon: <FaEnvelope size={22} />,     label: 'Email', bg: '#ea4335', color: '#ffffff', shape: 'circle' },
+  { href: 'mailto:sanskarparab27@gmail.com',               icon: <FaEnvelope size={22} />,     label: 'Email', bg: '#ea4335', color: '#ffffff', shape: 'circle' },
 ];
 
 export const skills = {
@@ -22,7 +22,7 @@ export const projects = [
     desc: 'Built an AI-powered personal finance assistant that analyzes expenses, answers financial queries using Retrieval-Augmented Generation (RAG), supports voice interactions, and integrates Telegram for seamless communication.',
     image: './finmate.png',
     tech: ['n8n', 'Telegram Bot', 'Pinecone', 'Hugging Face', 'OpenRouter', 'Google Drive'],
-    link: '#',
+    link: 'https://github.com/Sanskar-Parab/finance-document-indexer',
     note: null,
   },
   {
@@ -31,7 +31,7 @@ export const projects = [
     desc: 'An intelligent assistant for hotels and restaurants that automates reservations, handles menu inquiries, manages guest requests, and provides AI-driven recommendations through a conversational interface.',
     image: './ai-hotel.png',
     tech: ['n8n', 'AI Agent', 'Telegram Bot', 'OpenRouter'],
-    link: '#',
+    link: 'https://github.com/Sanskar-Parab/telegram-ai-restaurant-assistant',
     note: null,
   },
   {
