@@ -102,7 +102,7 @@ export const ImageAtomizer: React.FC<ImageAtomizerProps> = ({ imageUrl }) => {
       canvas.width = cssWidth * dpr;
       canvas.height = cssHeight * dpr;
       
-      const scale = Math.max(canvas.width / image.width, canvas.height / image.height);
+      const scale = Math.min(canvas.width / image.width, canvas.height / image.height);
       const imgWidth = image.width * scale;
       const imgHeight = image.height * scale;
       const offsetX = (canvas.width - imgWidth) / 2;
